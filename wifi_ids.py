@@ -462,7 +462,7 @@ class WiFiIDS:
                     vendor = self.lookup_vendor(mac)
                     self.client_probes[mac] = ssid
                     self.recent_clients[mac] = time.time()
-                    self.log("DEBUG", f"Probe: {mac} ({vendor}) is searching for '{ssid}'")
+                    self.log("INFO", f"Probe: {mac} ({vendor}) is searching for '{ssid}'")
                     
         except Exception as e:
             self.log("DEBUG", f"Error processing probe: {e}")
