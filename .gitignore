@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.vscode/
+wifi-ids-frontend/node_modules/

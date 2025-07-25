@@ -1,0 +1,30 @@
+.connected-clients {
+  height: 100%;
+}
+
+.client-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.client-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-name {
+  font-weight: 500;
+}
+
+.client-time {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.client-details {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}

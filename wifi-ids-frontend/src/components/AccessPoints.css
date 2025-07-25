@@ -1,0 +1,73 @@
+.access-points {
+  grid-column: 1/2;
+  height: 100%;
+}
+
+.ap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ap-item {
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+  height: 100%;
+}
+
+.ap-item:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.ap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.ap-ssid {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #e0f2fe;
+}
+
+.ap-details {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.crypto-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.crypto-open {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.crypto-wpa {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.channel-indicator {
+  background: rgba(59, 130, 246, 0.2);
+  color: #3b82f6;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}

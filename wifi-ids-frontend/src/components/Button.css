@@ -1,0 +1,36 @@
+.control-panel {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  grid-column: 1/2;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-secondary {
+  background: rgba(148, 168, 184, 0.1);
+  color: #e2e8f0;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.btn-secondary:hover {
+  background: rgba(148, 163, 184, 0.2);
+}

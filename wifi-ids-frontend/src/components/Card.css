@@ -1,0 +1,27 @@
+.card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  height: 100%;
+}
+
+.card-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.card-content {
+  padding: 1.5rem;
+  height: 400px;
+  overflow-y: auto;
+}
